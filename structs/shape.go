@@ -28,7 +28,3 @@ func (c Circle) Area() float64 {
 func Perimeter(r Rectangle) float64 {
 	return (r.Width + r.Height) * 2
 }
-
-func Area(r Rectangle) float64 {
-	return r.Height * r.Width
-}
